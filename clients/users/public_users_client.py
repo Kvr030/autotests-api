@@ -4,15 +4,18 @@ from httpx import Response
 
 from clients.api_client import APIClient
 
+
 class CreateUserRequestDict(TypedDict):
     """
     Описание структуры запроса на создание пользователя.
     """
+
     email: str
     password: str
     lastName: str
     firstName: str
     middleName: str
+
 
 class PublicUsersClient(APIClient):
     """

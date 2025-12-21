@@ -9,6 +9,7 @@ class GetCoursesQueryDict(TypedDict):
     """
     Описание структуры запроса на получение списка курсов.
     """
+
     userId: str
 
 
@@ -16,6 +17,7 @@ class CreateCourseRequestDict(TypedDict):
     """
     Описание структуры запроса на создание курса.
     """
+
     title: str
     maxScore: int
     minScore: int
@@ -29,6 +31,7 @@ class UpdateCourseRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление курса.
     """
+
     title: str | None
     maxScore: int | None
     minScore: int | None
@@ -69,7 +72,9 @@ class CoursesClient(APIClient):
         """
         return self.post("/api/v1/courses", json=request)
 
-    def update_course_api(self, course_id: str, request: UpdateCourseRequestDict) -> Response:
+    def update_course_api(
+        self, course_id: str, request: UpdateCourseRequestDict
+    ) -> Response:
         """
         Метод обновления курса.
 

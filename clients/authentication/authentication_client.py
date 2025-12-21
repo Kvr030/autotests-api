@@ -9,6 +9,7 @@ class LoginRequestDict(TypedDict):
     """
     Описание структуры запроса на аутентификацию.
     """
+
     email: str
     password: str
 
@@ -17,6 +18,7 @@ class RefreshRequestDict(TypedDict):
     """
     Описание структуры запроса для обновления токена.
     """
+
     refreshToken: str  # Название ключа совпадает с API
 
 

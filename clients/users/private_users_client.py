@@ -9,6 +9,7 @@ class UpdateUserRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление пользователя.
     """
+
     email: str | None
     lastName: str | None
     firstName: str | None
