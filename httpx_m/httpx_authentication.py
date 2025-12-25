@@ -1,5 +1,4 @@
 import httpx
-
 login_payload = {"email": "user@example.com", "password": "string"}
 
 login_response = httpx.post(
