@@ -31,7 +31,7 @@ response = httpx.get("https://jsonplaceholder.typicode.com/todos", params=params
 print(response.url)
 print(response.json())
 
-files = {"file": ("example.txt", open("example.txt", "rb"))}
+files = {"file": ("example.txt", open("../example.txt", "rb"))}
 response = httpx.post("https://httpbin.org/post", files=files)
 
 print(response.status_code)
