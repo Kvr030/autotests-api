@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjM5OjQwLjQ0MzAyOSIsInVzZXJfaWQiOiJkZTRhMjY5Mi01ZTU2LTQ2MzItYjkyMi01MDFlNmY3ZmQ1YzIifQ.hr0D7fNzi1tbwdE7UIC9WMSGelkYtDaOrA7SbKitVN8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land learn staff official have purpose.","maxScore":54,"minScore":5,"description":"Chair available dark per manage positive thing. Value defense west political. Soon difficult wife window.\nMemory care so TV politics. Know allow character true.","estimatedTime":"1 weeks","previewFileId":"2d37208b-7357-4f42-961e-f851842a5205","createdByUserId":"de4a2692-5e56-4632-b922-501e6f7fd5c2"}'

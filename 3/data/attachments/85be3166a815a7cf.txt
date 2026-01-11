@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjM5OjQxLjYxMzE5NSIsInVzZXJfaWQiOiI5YjEyMjkyNi1kNzFjLTRjMzgtODY3NC01ZjlhY2RmNDcyYjYifQ.uvY3OmUvhITy8UggmlZCjxK_FyMgLjLFmz91mlMgIMk' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat range citizen set record onto scene.","maxScore":68,"minScore":25,"description":"Political instead join brother law. Certain different southern that indicate street later. Reveal future wonder style large.\nHold could subject play include. Decide whom response.","estimatedTime":"9 weeks","previewFileId":"30235061-d667-443e-a971-ceb38fbed9ac","createdByUserId":"9b122926-d71c-4c38-8674-5f9acdf472b6"}'

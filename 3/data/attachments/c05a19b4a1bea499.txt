@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjM5OjM5LjIxOTc0MCIsInVzZXJfaWQiOiJlOWViNjBhZC1kZTBhLTQ0NjktOTgzOS04MmQyODgyNzBkM2MifQ.yxPvO8oFOSEhfRtxNDpDeO9dLu6oP8hMCGh9t7gOVNA' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have discover late deep size.","maxScore":62,"minScore":7,"description":"Tax morning key practice ever space positive. Pick account same technology.\nHerself start many level good. Drive person space free.","estimatedTime":"7 weeks","previewFileId":"1840eb41-d418-41d8-bc07-076d8490e772","createdByUserId":"e9eb60ad-de0a-4469-9839-82d288270d3c"}'

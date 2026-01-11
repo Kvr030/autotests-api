@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjM5OjQyLjg0MzU3NyIsInVzZXJfaWQiOiJlNDY3OWI5NS1kOTA1LTQzNTktOGU4Mi0xNDg0ODk2MjNiOTkifQ.74bov4iJZVFZFmLiIxzKOTo2Fabhf8don9Mp8mH71wc' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without visit late finish part decision.","maxScore":59,"minScore":5,"description":"Interview hundred professor participant rate. Very those land area.\nUs finish per training very company put. Music at spend poor western food what.","estimatedTime":"1 weeks","previewFileId":"d8893a7c-8322-426b-a82e-693349ac8b40","createdByUserId":"e4679b95-d905-4359-8e82-148489623b99"}'

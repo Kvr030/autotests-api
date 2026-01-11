@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjM5OjQzLjQ1NDI1NCIsInVzZXJfaWQiOiJkYzM2ZGQ1ZC00YzJjLTRjYzctYjE3MS1lNzUwZGE3ODY0ZGEifQ.hqdycnfW0usn-OHGlaLoMyVrxSNHpbJG_evNAtMbKQg' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Little arrive exactly.","courseId":"737e929e-df9c-4a56-9e9d-e969c2ac2f70","maxScore":96,"minScore":25,"orderIndex":41,"description":"Outside everything son list. Leader worry goal just join of.\nMember appear will second traditional. Purpose speech form east better. Able set order someone hope.","estimatedTime":"10 weeks"}'

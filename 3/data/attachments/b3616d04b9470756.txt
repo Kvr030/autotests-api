@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/db31c13a-88de-4228-b5ec-18c6a0be0add' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjM5OjM5LjIxOTc0MCIsInVzZXJfaWQiOiJlOWViNjBhZC1kZTBhLTQ0NjktOTgzOS04MmQyODgyNzBkM2MifQ.yxPvO8oFOSEhfRtxNDpDeO9dLu6oP8hMCGh9t7gOVNA' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Response street who alone board stay child.","maxScore":59,"minScore":20,"description":"Available however skill always any cause great receive. Live phone information above behavior base give. Think trip measure out control whose.","estimatedTime":"6 weeks"}'
