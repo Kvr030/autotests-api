@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjQzOjA5LjQ1NzMwMyIsInVzZXJfaWQiOiJiMzA3OWQ0MS04NDAxLTQ1ODEtOWYwNC03MGYwZTBmMWVhODUifQ.V49ujqj8up7djuw5kbjvU3cTEJqIpT2Nyt2_CGHgsdo' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock build agreement little.","maxScore":73,"minScore":4,"description":"Food minute list guy form beyond. Carry response different consumer family sure.\nRule short short weight thank. Dark serve as tree.\nFill phone manage. Service various think color sometimes audience.","estimatedTime":"8 weeks","previewFileId":"3437a103-74ab-45d8-bbc8-c9e6c2be0488","createdByUserId":"b3079d41-8401-4581-9f04-70f0e0f1ea85"}'

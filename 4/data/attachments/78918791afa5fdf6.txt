@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjQzOjA5LjczMjE3NyIsInVzZXJfaWQiOiIwNmQxNDc0NS01NGFlLTQxNWUtYmYzOC05MTU5MGU5YWQwNGQifQ.eSxl5QfTrymvtYEIBAw_kNL1J1VDk795uMJbfI0lADc' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"And focus one seek.","maxScore":92,"minScore":15,"description":"Open we should serious customer nearly. Produce debate institution career tough old. Politics clearly little second treatment hit participant school.","estimatedTime":"3 weeks","previewFileId":"320347f9-886e-4ac9-b162-4ce51c9d5652","createdByUserId":"06d14745-54ae-415e-bf38-91590e9ad04d"}'

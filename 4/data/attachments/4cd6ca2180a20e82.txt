@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjQzOjEwLjk1ODU2NiIsInVzZXJfaWQiOiJkYmRmNGJiNS02YmFjLTQxMzItOGM4Zi05ZWJiZGRiOGMzYjkifQ.rMNXKf8gdtlkBWhfBDgez3Q3NgGNmP6q-cSwKkcHrb4' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word just friend behind much agency media.","maxScore":65,"minScore":2,"description":"Question great reveal reveal wall hot recent. Read choose data local song image Congress ball.\nTell discover only history. History often bill produce election notice authority.","estimatedTime":"3 weeks","previewFileId":"9f38e689-49a3-492e-a162-1bfdf220bec5","createdByUserId":"dbdf4bb5-6bac-4132-8c8f-9ebbddb8c3b9"}'

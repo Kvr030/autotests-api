@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjQzOjA4LjMxMDQxMyIsInVzZXJfaWQiOiI3YjgwMGQyZS1mOGU1LTQzNDctOGFjMC00NjMwOTg0NjJhNTQifQ.ZlOkcF80kpuTcZ5X9mbzWdsaMoXr18BBs5djJvjmaSA' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel matter else view.","maxScore":64,"minScore":16,"description":"Human meet threat election. Price agent listen today. Choose argue inside serious late week drop book.\nQuickly certainly outside purpose crime news tough. Character real major could most from a.","estimatedTime":"2 weeks","previewFileId":"e4f028e4-ed3a-4c79-89ee-e8a30806ca0e","createdByUserId":"7b800d2e-f8e5-4347-8ac0-463098462a54"}'

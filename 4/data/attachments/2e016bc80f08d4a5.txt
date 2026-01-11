@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjQzOjExLjg2MjMxMSIsInVzZXJfaWQiOiIxNjMxNWU4OS05NWExLTRkZTQtYWRkNS1lZTdmNzkwNjgyZTcifQ.fpkXZ6vRD0qTcdY7poZVAue0PmkIy7VRdJp0H5k7CA8' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Order large wish seek market strong.","maxScore":72,"minScore":3,"description":"Situation tell out term government agent.\nRoom enjoy control old their decide card. Front claim these us goal citizen. At likely people current imagine half professional.","estimatedTime":"2 weeks","previewFileId":"326a2d70-73ea-47c0-a9b3-2248696b7383","createdByUserId":"16315e89-95a1-4de4-add5-ee7f790682e7"}'

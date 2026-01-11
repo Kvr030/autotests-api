@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE4OjQzOjEwLjY5MDc1MiIsInVzZXJfaWQiOiI5Y2ExYjg3OS1mZjYxLTRhN2EtOTZhMy04MTZlZWU4YzIzNjQifQ.B5azjKIUNOIdh96vq4hqSv408mpdwKrHik_51rKlk-8' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Line mother recognize young edge however professor test.","courseId":"c2e3e00f-b16e-4290-b4dc-0bb579310730","maxScore":91,"minScore":9,"orderIndex":36,"description":"Enter popular past account crime. Suffer like thought Mrs test college. Agency value hold his side need.\nElection life increase reduce prevent able. Kitchen court need should. Go partner suddenly.","estimatedTime":"1 weeks"}'
