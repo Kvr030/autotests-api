@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjEyOjU3LjU3NDgwNCIsInVzZXJfaWQiOiI4MGEwODE5Yy0yMmUxLTQ2ZDMtYWY2OC1hZmEwMDY0MzA1ZjEifQ.QpGqlwwqE2CDVdQ-nu-ptpannK3_cexs8Vq4OWg8P8s' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration main off gas.","maxScore":73,"minScore":12,"description":"Necessary thing prevent Congress him necessary understand. Employee perform do red.\nPer return go task couple. Teach guy yet receive. Share last continue buy who evening.","estimatedTime":"6 weeks","previewFileId":"1ac77613-d70a-4cea-95f7-dd241aa9fbb8","createdByUserId":"80a0819c-22e1-46d3-af68-afa0064305f1"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE2OjM5OjQxLjcwNzEyMCIsInVzZXJfaWQiOiJmZWIyNWVhMC1iN2M0LTQyNzgtYWMxYS03MzRhODYyY2Q3MzQifQ.7tUkYP3t3eadQCd4R-Cr-OPxupb3apZN72dv7b_BTYA' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Program dinner table board plan.","courseId":"0018d252-9c66-4455-b85c-4d64b683ba2b","maxScore":93,"minScore":4,"orderIndex":32,"description":"For care operation nearly policy team everybody. Brother nor memory skill with.\nMrs see action fill along prepare task. Success at statement reduce carry choice middle music. Tend staff already.","estimatedTime":"9 weeks"}'

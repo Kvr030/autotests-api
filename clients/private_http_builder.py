@@ -1,28 +1,44 @@
+from functools import lru_cache
+
 from httpx import Client
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from clients.authentication.authentication_client import get_authentication_client
-# Импортируем модель LoginRequestSchema
 from clients.authentication.authentication_schema import LoginRequestSchema
+from clients.event_hooks import curl_event_hook, log_request_event_hook, \
+    log_response_event_hook  # Импортируем event hook
+from config import settings
 
-
-# Добавили суффикс Schema вместо Dict
-class AuthenticationUserSchema(BaseModel):  # Наследуем от BaseModel вместо TypedDict
+class AuthenticationUserSchema(BaseModel):
+    model_config = ConfigDict(frozen=True)
     email: str
     password: str
 
 
+@lru_cache(maxsize=None)
 def get_private_http_client(user: AuthenticationUserSchema) -> Client:
+    """
+    Функция создаёт экземпляр httpx.Client с аутентификацией пользователя.
+
+    :param user: Объект AuthenticationUserSchema с email и паролем пользователя.
+    :return: Готовый к использованию объект httpx.Client с установленным заголовком Authorization.
+    """
     authentication_client = get_authentication_client()
 
-    # Используем модель LoginRequestSchema
-    # Значения теперь извлекаем не по ключу, а через атрибуты
     login_request = LoginRequestSchema(email=user.email, password=user.password)
     login_response = authentication_client.login(login_request)
 
     return Client(
-        timeout=100,
-        base_url="http://localhost:8000",
-        # Значения теперь извлекаем не по ключу, а через атрибуты
-        headers={"Authorization": f"Bearer {login_response.token.access_token}"}
+        timeout=settings.http_client.timeout,
+        base_url=settings.http_client.client_url,
+        headers={"Authorization": f"Bearer {login_response.token.access_token}"},
+        event_hooks={
+            "request": [curl_event_hook, log_request_event_hook],  # Логируем исходящие HTTP-запросы
+            "response": [log_response_event_hook]  # Логируем полученные HTTP-ответы
+        },
     )
+
+
+
+
+#model_config = ConfigDict(frozen=True) чтобы не было ошибки

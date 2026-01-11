@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjEyOjIwLjQ1NzkzOCIsInVzZXJfaWQiOiJhMjI5MGNkNC1kMDU0LTQzYTMtYjU3MC1mZmQ2MzJhZmFlMWMifQ.eytQC3U8Im-q6ypIjFPrcwse3G4n3aHBamXDmE64vL8' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Contain physical month cultural drug exist clear.","maxScore":80,"minScore":6,"description":"Hit half popular too us. Wide because success themselves. Seek artist middle challenge prove whom director. Wait room cultural.\nMoney teacher pretty. Wall compare baby. Up thus source respond.","estimatedTime":"9 weeks","previewFileId":"65b9d251-cdf6-4882-989c-865d95e58f95","createdByUserId":"a2290cd4-d054-43a3-b570-ffd632afae1c"}'

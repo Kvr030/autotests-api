@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjEyOjM4Ljk1NTc2NiIsInVzZXJfaWQiOiIyZjZjNWRjMi03NzZkLTQ4MTAtYTAwNi00NDIzNTM4YmUwNjkifQ.Pq2BVfwR6A4fK4eX0z6lgPJpaKcjGQ4t4B0S0ZUUHK0' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope wait responsibility pretty.","maxScore":71,"minScore":15,"description":"Kid at bag ten hair. Single weight everybody recently particularly.\nBall television this base black pattern. Parent more health employee project. President create senior because understand how.","estimatedTime":"6 weeks","previewFileId":"852defc7-0da9-4105-b886-5fb51b99751a","createdByUserId":"2f6c5dc2-776d-4810-a006-4423538be069"}'

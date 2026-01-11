@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE2OjM5OjIzLjcxODMyNCIsInVzZXJfaWQiOiJmNDI0ZWNhMS0xZGI5LTRlODUtYmNhNS0yN2Q0NGU0Y2FlNGUifQ.8K0wWozJ24cAP3D67J03whwmnXUCfYaz_uaf2rYt9w8' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kind smile significant follow full.","maxScore":83,"minScore":12,"description":"Worry girl similar role soldier much different. Quickly free leader how window race member. Benefit account chair. Station be author pattern plant.","estimatedTime":"1 weeks","previewFileId":"a520f5e5-38ea-480f-bb0a-373ce9688511","createdByUserId":"f424eca1-1db9-4e85-bca5-27d44e4cae4e"}'

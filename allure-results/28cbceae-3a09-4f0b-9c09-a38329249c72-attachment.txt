@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE2OjM4OjU2LjY4NzYxOSIsInVzZXJfaWQiOiJhNzhiNDQ0ZS1jYTMyLTRjMTctOTRiZS00M2ViOTI3MDUyNWEifQ.JMwhbdGM6npdC00jPnZgiihHo-j-3tSKomGH86ShXMU' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area truth will final majority.","maxScore":97,"minScore":26,"description":"During bring record serious major trade area. Laugh door tax whose garden listen. Attention goal even go.\nAttorney head church well check. Cell quality inside investment. Site quickly huge pattern.","estimatedTime":"6 weeks","previewFileId":"fec264e5-c328-4b3d-8623-a4f93db5ac55","createdByUserId":"a78b444e-ca32-4c17-94be-43eb9270525a"}'
