@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f196472b-c563-43b1-9e63-7e413fb2b5fe' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI3Ljc1Nzc0NiIsInVzZXJfaWQiOiJjYWYyYzg4NS0zODU5LTQ4ZDMtODE4MC01NjlhNjg3YWU1NzYifQ.izfqB_PPIa4ZZnmhvmaqG0KRF5TPeBbCynUIOQzC1rI' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact politics mean few.","maxScore":79,"minScore":8,"orderIndex":1,"description":"Month single include stand. Probably anything three difference once.\nHead civil pattern. Loss late red boy last somebody in. Food culture key establish.","estimatedTime":"9 weeks"}'

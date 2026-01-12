@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI3Ljc1Nzc0NiIsInVzZXJfaWQiOiJjYWYyYzg4NS0zODU5LTQ4ZDMtODE4MC01NjlhNjg3YWU1NzYifQ.izfqB_PPIa4ZZnmhvmaqG0KRF5TPeBbCynUIOQzC1rI' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material people fight.","maxScore":61,"minScore":17,"description":"Direction happen generation phone economic such.\nGlass series measure book sometimes professional experience. Society age spring Republican because time. Himself itself participant need.","estimatedTime":"1 weeks","previewFileId":"35c1f520-ef64-4731-bf17-fc44ea67eec5","createdByUserId":"caf2c885-3859-48d3-8180-569a687ae576"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI5LjQ5ODIzNiIsInVzZXJfaWQiOiJhMmQwZGRhMS1iMmJjLTQ0MmItYThhYy1jMjIzZjBjOTlhYjMifQ.hdKS82Qqvhaq_P3UeCgZJe_K4yyXhAEw4P9P8ezVJwA' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold record event result avoid whether Congress.","maxScore":76,"minScore":15,"description":"Small conference only hour painting teacher cold mean. Actually allow conference training amount. Song bill stop commercial such edge.","estimatedTime":"6 weeks","previewFileId":"37f5a4f5-0ddf-40af-8269-324a6e2b9b5d","createdByUserId":"a2d0dda1-b2bc-442b-a8ac-c223f0c99ab3"}'

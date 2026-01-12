@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI4LjkyMDcyMSIsInVzZXJfaWQiOiI2NDc5OGFhZS0zODgxLTQyMTItYmVjMy0xNWFmNzQ5NTJiZjQifQ.YH0t0UCZ9Towo4qanXYnlS_b96ak-acHufie-TmHdGk' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish arrive resource fire must wonder before side.","maxScore":60,"minScore":15,"description":"Surface throw above line enough. Gas form age fear resource. Others form hear state.\nArm onto car international decade. Chance to design design history long realize.","estimatedTime":"1 weeks","previewFileId":"1e5e0c09-d809-4d23-b0cf-c4ce08be5d74","createdByUserId":"64798aae-3881-4212-bec3-15af74952bf4"}'

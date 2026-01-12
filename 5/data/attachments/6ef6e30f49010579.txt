@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI5LjQ5ODIzNiIsInVzZXJfaWQiOiJhMmQwZGRhMS1iMmJjLTQ0MmItYThhYy1jMjIzZjBjOTlhYjMifQ.hdKS82Qqvhaq_P3UeCgZJe_K4yyXhAEw4P9P8ezVJwA' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy about wonder once.","courseId":"43923567-4bc7-44ea-a04a-f21878818a4c","maxScore":74,"minScore":7,"orderIndex":55,"description":"Space finish argue maybe try decide pay. Foreign surface benefit.\nAct prepare professor visit local early. Treat for condition modern.","estimatedTime":"7 weeks"}'

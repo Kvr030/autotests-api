@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI4LjMwOTUwMCIsInVzZXJfaWQiOiI5N2EzNTQ1My0xMmU1LTQyZjMtOGJiYS02ZGI5ZTZkZTA0OGMifQ.O2oF16wD_DXFVffA2BtKRsljyRcgCZgaC1Wqw97gJps' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light box away pretty.","maxScore":56,"minScore":9,"description":"Some central something part. Study other five role stop woman police. Really happen market have mention.","estimatedTime":"6 weeks","previewFileId":"90d853d3-2097-42a0-ac12-a483e86221ab","createdByUserId":"97a35453-12e5-42f3-8bba-6db9e6de048c"}'

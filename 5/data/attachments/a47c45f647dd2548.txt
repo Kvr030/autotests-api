@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/dec3e61e-5a98-469f-8518-646e3e62c4d5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI1LjIyODc3NiIsInVzZXJfaWQiOiI5YTkzMjQzMC05YjFiLTQxMGMtYmQ1Zi1kYWRkMzdhZTMwMDEifQ.-nFYHKJ0_GvV2VmzppNjPhy4Qu1o6TA_zZr-ZKOnkE4' \
+  -H 'content-length: 206' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help exactly although run.","maxScore":66,"minScore":27,"description":"Sound room future discussion personal others. Eight especially everybody eight region understand.","estimatedTime":"1 weeks"}'

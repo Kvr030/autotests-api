@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDA4OjM1OjI2LjY0NjY1MCIsInVzZXJfaWQiOiIwZWM0NGM5ZC1jZDMwLTRiMTktYWI0Zi1hODJjODU3NDE2MWQifQ.dPE47Ms2I5PFzZtggRw2c6n3pNUnWO48h6SjLlMirMI' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance into audience especially answer difference.","maxScore":57,"minScore":4,"description":"Arm military surface trip reality. Mention reason should box finally boy since.\nPower identify somebody culture.\nSchool career soldier gas mission. Unit environmental reflect mind.","estimatedTime":"3 weeks","previewFileId":"2a44c39b-d21d-4c0f-92dc-76be38dc38ff","createdByUserId":"0ec44c9d-cd30-4b19-ab4f-a82c8574161d"}'
